@@ -10,6 +10,47 @@ body {
     background-color: #f0f0f0;
 }
 
+.plants-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .category-heading {
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+  }
+  
+  .category-heading::before,
+  .category-heading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background: #000;
+  }
+  
+  .category-heading::before {
+    left: 0;
+  }
+  
+  .category-heading::after {
+    right: 0;
+  }
+  
+  .product-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
 /* Navbar */
 .navbar {
     background-color: #4CAF50;
