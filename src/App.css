@@ -35,10 +35,21 @@
   background-color: rgba(0,0,0,0.5);
   gap: 20px;
 }
-
+.about-us-container{
+margin-left: -100px;
+width: 60vw!important;
+text-align: justify;
+}
+.aboutus_container{
+margin-left: -100px;
+  padding-left: 100px;
+}
+.about-us-description{
+text-align:center;
+}
 .landing_content {
  margin-top: 430px;
-  margin-left: 100px;
+  margin-left: 200px;
   transform: translate(-50%, -50%);
   z-index: 1;
   text-align: center;
